@@ -1,0 +1,25 @@
+#include<iostream>
+int main()
+{
+	int a,b,c,d;
+	a=5;
+	b=8;
+	std::cout<<"enter your case";
+	std::cin>>c;
+	switch(c)
+	{
+		case 1:
+			d=a+b;
+			std::cout<<d;
+			break;
+		case 2:
+			d=a-b;
+			std::cout<<d;
+			break;
+		default:
+			std::cout<<"invalid choice";
+			break;
+			
+	}
+	return 0;
+}
