@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n,a,b;
+
+    cout << "Enter an integer: ";
+    cin >> n;
+    cout<< "enter an integer:";
+    cin >> a;
+    cout<< "enter an integer:";
+    cin >> b;
+
+    for (int i = 1; i <= 10; ++i) 
+	{
+        cout << n << " * " << i << " = " << n * i << endl;
+    }
+    for(int i = 1; i <= 10; ++i)
+	{
+		cout<<a<<"*"<<i<<"="<<a*i<<endl;
+	}
+	for(int i = 1; i <= 10; i++)
+	{
+		cout<<b<<"*"<<i<<"="<<b*i<<endl;
+	}
+    
+    return 0;
+}
