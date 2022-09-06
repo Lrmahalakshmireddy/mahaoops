@@ -1,0 +1,32 @@
+program for add sub mul divide and module.
+#include<iostream>	
+int main()
+{
+	int a,b,c,d,e,f,g;
+	a=5;
+	b=3;
+	c=a+b;
+	std::cout<<"c="<<c;
+	 
+	 a=5;
+	b=3;
+	d=a-b;
+	std::cout<<"d="<<d;
+	
+    a=5;
+	b=3;
+	e=a*b;
+	std::cout<<"e="<<e;
+		
+    a=5;
+	b=3;
+	f=a/b;
+	std::cout<<"f="<<f;
+	
+	a=5;
+	b=3;
+	g=a%b;
+	std::cout<<"g="<<g;
+	return 0;
+}
+    
