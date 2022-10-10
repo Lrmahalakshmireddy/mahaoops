@@ -1,0 +1,26 @@
+#include <iostream>
+#include <cmath> 
+
+using namespace std;
+
+int main()
+{
+	int num;
+    cout << "enter the number:";
+    cout << num;
+
+    int n;
+    double sq = 1, cb = 1;
+    cout << "Enter the Square root and Cube root : ";
+    cin >> n;
+
+    sq = sqrt(n);
+    cb = cbrt(n);
+
+    cout << " Square Root of the number " << n << " is : " << sq;
+    cout << " Cube Root of the number " << n << " is : " << cb;
+
+
+    return 0;
+}
+
