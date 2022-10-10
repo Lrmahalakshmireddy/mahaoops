@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int num,n;
+	cout<<"enter num=";
+	cin>>num;
+	cout<<"nth bit to set=";
+	cin>>n;
+	cout<<"bit set"<<(num||(1<<(n-1)));
+}
