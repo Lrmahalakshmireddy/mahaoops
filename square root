@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n,s;
+    cout<< "enter the number:";
+    cin>>n;
+    s=n*n;
+    cout<<"Square"<<s;
+    return 0;
+}
